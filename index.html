@@ -157,8 +157,8 @@
 
     .grid-cell {
         font-size: 14px;
-    }
-    }
+        }
+        }
     </style>
 </head>
 <body class="text-stone-800 text-xl">
@@ -342,6 +342,10 @@
 
         function initCanvas() {
             canvas = document.getElementById('paintCanvas');
+            
+            canvas.width = 440;
+            canvas.height = 260;
+            
             ctx = canvas.getContext('2d');
             
             ctx.fillStyle = '#ffffff';
