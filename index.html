@@ -117,6 +117,12 @@
             background-color: #e5e7eb;
             color: #4b5563;
         }
+    #paintCanvas {
+    width: 100%;
+    max-width: 440px;
+    aspect-ratio: 440 / 260;
+    height: auto;
+}
     </style>
 </head>
 <body class="text-stone-800 text-xl">
@@ -217,7 +223,7 @@
             </div>
 
             <div class="bg-stone-50 border border-stone-200 rounded-xl p-3 flex flex-col items-center justify-center relative">
-                <canvas id="paintCanvas" width="440" height="260" class="bg-white rounded-lg shadow-sm cursor-crosshair border border-stone-200"></canvas>
+                <<canvas id="paintCanvas" class="bg-white rounded-lg shadow-sm cursor-crosshair border border-stone-200"></canvas>
             </div>
 
             <div class="py-4 bg-red-50/10 rounded-xl border border-red-100">
